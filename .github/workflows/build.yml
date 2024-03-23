@@ -24,7 +24,7 @@ jobs:
     - name: Add nojekyll
       run: |
         touch ./content/.nojekyll
-        echo "nanda.online-dhamma.net" > ./content/CNAME
+        echo "nanda.online-dhamma.net/18days-Uttamo" > ./content/CNAME
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
